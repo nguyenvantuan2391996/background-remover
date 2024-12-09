@@ -6,7 +6,7 @@ from PIL import Image
 from rembg import remove
 import uuid
 
-MAX_FILES = 5
+MAX_FILES = 10
 ALLOWED_TYPES = ["png", "jpg", "jpeg"]
 
 
