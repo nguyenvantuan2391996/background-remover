@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  background-remover-app:
+    image: background-remover
+    ports:
+      - "8501:8501"
+    restart: always
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
